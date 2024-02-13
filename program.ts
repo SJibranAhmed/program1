@@ -1,7 +1,9 @@
-let owner_name : any = prompt('Enter your name')
+let owner_nam : any = prompt('Enter your name')
 
-if (owner_name == 'Jibran'){
+if (owner_nam == 'Jibran'){
     console.log("it's you Sheikh")
-} else{
-    console.log('Unknown person')
+} else if (owner_nam == 'Munaaf'){
+    console.log('It\'s you munaaf')
+}else{
+    console.log('Unidentified')
 }

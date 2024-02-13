@@ -1,7 +1,10 @@
-var owner_name = prompt('Enter your name');
-if (owner_name == 'Jibran') {
+var owner_nam = prompt('Enter your name');
+if (owner_nam == 'Jibran') {
     console.log("it's you Sheikh");
 }
+else if (owner_nam == 'Munaaf') {
+    console.log('It\'s you munaaf');
+}
 else {
-    console.log('Unknown person');
+    console.log('Unidentified');
 }
